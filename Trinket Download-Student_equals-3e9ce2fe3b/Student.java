@@ -10,9 +10,11 @@ public class Student
   private int schoolYear; // Step 6b
 
   // Constructor
-  Student(String inputName)
+  Student(String inputName, int idNumber, int studentGrade) //Step 6c
   {
     name = inputName;
+    id = idNumber; //Step 6c
+    schoolYear = studentGrade; //Step 6c
   }
 
 }
