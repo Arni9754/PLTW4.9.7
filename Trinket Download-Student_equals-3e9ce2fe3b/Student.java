@@ -17,4 +17,8 @@ public class Student
     schoolYear = studentGrade; //Step 6c
   }
 
+  public String toString() {  //Step 6d
+    return "Student Name: " + name + "\nStudent ID: " + id + "\nStudent Grade: " + schoolYear; //Step 6d
+  }
+
 }
