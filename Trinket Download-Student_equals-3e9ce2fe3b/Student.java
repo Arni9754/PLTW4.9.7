@@ -1,16 +1,18 @@
 /*
  * Activity 4.9.7
  */ 
-public class Student 
+public class Student
 { 
-  private String name = "";  
+  private String name = "";
 
-  private String id; //Step 6a
+  private int id; //Step 6a
 
-  // Constructor 
-  Student(String inputName) 
-  { 
+  private int schoolYear; // Step 6b
+
+  // Constructor
+  Student(String inputName)
+  {
     name = inputName;
-  } 
+  }
 
-} 
+}
