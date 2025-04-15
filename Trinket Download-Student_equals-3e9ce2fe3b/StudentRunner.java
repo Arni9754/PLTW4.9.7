@@ -10,7 +10,7 @@ public class StudentRunner
     Student r = new Student("New Name", 4, 3);
 
     // Below two statements are equivalent 
-    System.out.println(s.equals(t));
-    System.out.println(s.equals(r));
+    System.out.println(s.equals(t)); //returns true
+    System.out.println(s.equals(r)); //returns false
   } 
 } 
