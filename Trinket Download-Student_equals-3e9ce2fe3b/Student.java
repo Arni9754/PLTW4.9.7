@@ -21,4 +21,8 @@ public class Student
     return "Student Name: " + name + "\nStudent ID: " + id + "\nStudent Grade: " + schoolYear; //Step 6d
   }
 
+  public boolean equals(Student s1) { //Step 6e
+    return this.id == s1.id;  //Step 6e
+  }
+
 }
